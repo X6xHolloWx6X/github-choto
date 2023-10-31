@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilocontacto.css">
+</head>
+<body>
+    <nav class="main-dev">
+        <button id="toggle-menu" class="toggle-menu" onclick="toggleMenu()">
+            <img src="img/burger.png">
+        </button>
+        <ul class="main-menu">
+            <li>
+                <img class="logo" src="img/wanhua.svg" alt="Logo">
+            </li>
+            <li>
+                <a class="main-menu__link" href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a class="main-menu__link" href="quienes.html">Quienes somos</a>
+            </li>
+            <li>
+                <a class="main-menu__link" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <article>
+        <div class="contactos">
+            <img class="img-contactos" src="img/imagen-contacto.svg" alt="">
+            <div class="text-overlay-contacto">
+                <h1>Donde los sueños encuentran su hogar</h1>
+            </div>
+        </div>
+        <div class="contact-info">
+            <div class="informacion-contacto">
+                <p class="informacion-contacto">Dirección: Av siempre viva 22 <br>Tel: 999999<br>Correo: Administracion@wanhua.com</p>
+            </div>
+            <div class="dudas">
+                <p class="dudas">¿Tenes alguna pregunta o propuesta?, escribinos y estaremos complacidos de responderte <br>Si querés visitarnos en nuestras sucursales, por favor envianos un mensaje y te responderemos lo antes posible para coordinar una cita</p>
+            </div>
+        </div>
+        <div class="formulario-contacto">
+            <form>
+                <div class="form-container">
+                    <input type="text" placeholder="Nombre">
+                    <input type="tel" placeholder="Télefono">
+                    <input type="email" placeholder="Correo">
+                    <input type="text" placeholder="Asunto">
+                    <textarea placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar mensaje">
+                </div>
+            </form>
+        </div>
+    </article>
+    <footer>
+        <p class="footer-text">Wanhua 2019 - 2023</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
