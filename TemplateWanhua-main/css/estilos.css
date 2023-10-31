@@ -365,11 +365,15 @@ footer {
 }
 
 /* Aquí se mantiene tu código para .cliente, .carta-contenedor, .carta, etc... */
+
+/*Cosas del carrusel de imagenes*/
 .scope {
     position: relative;
-    margin-left: 700px;
-    width: 200px;
-    height: 400px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 650px;
+    width: 300px;
+    height: 250px;
     transform-style: preserve-3d;
     animation: slid 30s linear infinite;
   }
@@ -382,7 +386,7 @@ footer {
     height: 100%;
     transform-origin: lcenter;
     transform-style: preserve-3d;
-    transform: rotateY(calc(var(--i) * 45deg)) translateZ(350px);
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(500px); /*esta línea es para la distancia de las imagenes*/
   }
   .scope span img {
     position: absolute;
